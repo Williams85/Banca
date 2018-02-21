@@ -1,0 +1,47 @@
+﻿@model List<SGCFVIEF.Entidad.SubCanalEntidad>
+@{
+    ViewBag.Title = "_ResultadosBusqueda";
+}
+
+@if (Model != null && Model.Count > 0)
+{
+    <table id="TablaResultados" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>Canal</th>
+                <th>Fecha Inicio</th>
+                <th>Fecha Cese</th>
+                <th>Estado</th>
+                <th>Direción</th>
+                <th>Distrito</th>
+                <th>Usuario</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="gradeA">
+                    <td align="center">@item.SubCanal</td>
+                    <td align="center">@item.Canal.Canal</td>
+                    <td align="center">@item.Fecha_Inicio</td>
+                    <td align="center">@item.Fecha_Cese</td>
+                    <td align="center">@item.Estado</td>
+                    <td align="center">@item.Direccion</td>
+                    <td align="center">@item.Distrito.Descripcion</td>
+                    <td align="center">@item.Usuario.Nom_Usuario</td>
+                    <td>
+                        @using (Html.BeginForm("Edicion", "SubCanal", FormMethod.Post, new { @role = "form" }))
+                        {
+                            <input type="hidden" id="Codigo" name="Codigo" value="@item.Cod_SubCanal" />
+                            <button type="submit" class="btn btn-primary btn-sm"><span class="separarboton glyphicon glyphicon-pencil"></span>Editar</button>
+                        }
+</tr>
+            }
+
+        </tbody>
+    </table>
+}
+
+

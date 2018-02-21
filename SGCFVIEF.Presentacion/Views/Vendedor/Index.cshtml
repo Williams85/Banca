@@ -1,0 +1,126 @@
+﻿@{
+    ViewBag.Title = "Registro de Vendedores";
+}
+
+<div id="content-header">
+    <h1>Registrar Vendedor</h1>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span8 clear centrar8">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon">
+                        <i class="icon-align-justify"></i>
+                    </span>
+                    <h5>Filtro de Selección</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <form class="form-horizontal formulario" method="post" action="#" name="basic_validate" id="basic_validate" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="FechaInicio">Desde:</label>
+                                    <input type="text" class="form-control" id="FechaInicio" readonly
+                                           placeholder="Fecha Inicio">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="FechaFin">Hasta:</label>
+                                    <input type="text" class="form-control" id="FechaFin" readonly
+                                           placeholder="Fecha Fin">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="Cod_Canal">Canal:</label>
+                                    @Html.DropDownList("Cod_Canal", new SelectList(ViewBag.ListaCanales, "Cod_Canal", "Canal"), "Todos", new { @class = "form-control chosen-select" })
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="Cod_SubCanal">Sub-Canal:</label>
+                                    @Html.DropDownList("Cod_SubCanal", new SelectList(ViewBag.ListaSubCanales, "Cod_SubCanal", "SubCanal"), "Todos", new { @class = "form-control chosen-select" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="Nombre">Nombre Vendedor:</label>
+                                    <input type="text" class="form-control" id="Nombre"
+                                           placeholder="Nombre Vendedor">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="Nombre">Apellido Vendedor:</label>
+                                    <input type="text" class="form-control" id="Apellido"
+                                           placeholder="Apellido Vendedor">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="Cod_SubCanal">Tipo Documento:</label>
+                                    @Html.DropDownList("Tipo_Doc", new SelectList(ViewBag.ListaTipoDocumentos, "Tipo_Doc", "Nomb_Doc"), "Todos", new { @class = "form-control chosen-select" })
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="Num_Doc">N° Documento:</label>
+                                    <input type="text" class="form-control" id="Num_Doc"
+                                           placeholder="N° Documento">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="row">
+                            <div class="col-md-3">
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="alert alert-danger text-left" id="Message-Error">
+                                    <strong></strong>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+
+                            </div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-info" id="btn-buscar">Buscar</button>
+                                    @Html.ActionLink("Nuevo", "Nuevo", null, new { @class = "btn btn-primary" })
+                                    <button type="button" class="btn btn-warning" id="btn-cancelar">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Resultados" style="overflow:scroll">
+
+</div>
+@Scripts.Render("~/bundles/script-layaout")
+@Scripts.Render("~/bundles/mantenimiento-vendedores")
+
+<script>
+    $(function () {
+
+        $("#FechaInicio").datepicker();
+        $("#FechaFin").datepicker();
+
+    });
+</script>
+
+

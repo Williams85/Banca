@@ -1,0 +1,120 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Sistema para la Gestión de Comisiones de la Fuerza de Ventas Internas y Externas en una Entidad Financiera</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    <script src="https://cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
+
+    @RenderSection("scripts", required: false)
+    @*<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">*@
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.16/css/dataTables.bootstrap.min.css">
+
+</head>
+<body>
+
+    <!--Header-part-->
+    <div id="header">
+        <h1>SISTEMA PARA LA GESTIÓN DE COMISIONES DE LA FUERZA DE VENTAS INTERNA <br />Y EXTERNA EN UNA ENTIDAD FINANCIERA</h1>
+        <a href="/Home/Index"></a>
+        <div class="clear"></div>
+    </div>
+    <!--close-Header-part-->
+    <!--top-Header-messaages-->
+    @*<div class="btn-group rightzero"> <a class="top_message tip-left" title="Manage Files"><i class="icon-file"></i></a> <a class="top_message tip-bottom" title="Manage Users"><i class="icon-user"></i></a> <a class="top_message tip-bottom" title="Manage Comments"><i class="icon-comment"></i><span class="label label-important">5</span></a> <a class="top_message tip-bottom" title="Manage Orders"><i class="icon-shopping-cart"></i></a> </div>*@
+    <!--close-top-Header-messaages-->
+    <!--top-Header-menu-->
+    @*<div id="user-nav" class="navbar navbar-inverse">
+            <ul class="nav">
+                <li class=""><a title="" href="#"><i class="icon icon-user"></i> <span class="text">Profile</span></a></li>
+                <li class=" dropdown" id="menu-messages">
+                    <a href="#" data-toggle="dropdown" data-target="#menu-messages" class="dropdown-toggle"><i class="icon icon-envelope"></i> <span class="text">Messages</span> <span class="label label-important">5</span> <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li><a class="sAdd" title="" href="#">new message</a></li>
+                        <li><a class="sInbox" title="" href="#">inbox</a></li>
+                        <li><a class="sOutbox" title="" href="#">outbox</a></li>
+                        <li><a class="sTrash" title="" href="#">trash</a></li>
+                    </ul>
+                </li>
+                <li class=""><a title="" href="#"><i class="icon icon-cog"></i> <span class="text">Settings</span></a></li>
+                <li class=""><a title="" href="login.html"><i class="icon icon-share-alt"></i> <span class="text">Logout</span></a></li>
+            </ul>
+        </div>*@
+    <!--close-top-Header-menu-->
+    <!--left-menu-stats-sidebar-->
+    <div id="sidebar">
+        <ul>
+            <li class="submenu">
+                <a href="#"><i class="icon icon-th-list"></i> <span>Solicitudes</span></a>
+                <ul>
+                    <li>@Html.ActionLink("Reporte de Solicitudes Aprobadas", "Index", "ReporteSolicitud")</li>
+                    <li><a href="#">Actualizar Solicitudes</a></li>
+                    <li><a href="#">Historico Solicitudes</a></li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#"><i class="icon icon-th-list"></i> <span>Pagos</span></a>
+                <ul>
+                    <li>@Html.ActionLink("Calcular Comisión", "Index", "CalculoComision")</li>
+                    <li>@Html.ActionLink("Reporte Comisiones", "Index", "ReporteComisiones")</li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#"><i class="icon icon-th-list"></i> <span>Reclamos</span></a>
+                <ul>
+                    <li>@Html.ActionLink("Registrar Reclamo", "BuscarSolicitudes", "Reclamo")</li>
+                    <li>@Html.ActionLink("Aprobar/Rechazar Reclamo", "BuscarReclamo", "Reclamo")</li>
+                    <li>@Html.ActionLink("Consultar Reclamo", "Index", "Reclamo")</li>
+                </ul>
+            </li>
+            <li class="submenu">
+                <a href="#"><i class="icon icon-th-list"></i> <span>Diferidos</span></a>
+                <ul>
+                    <li>@Html.ActionLink("Generar Diferidos", "Index", "CalculoDiferimiento")</li>
+                </ul>
+            </li>
+            <li> <a href="charts.html"><i class="icon icon-signal"></i> <span>Rentabilidad</span></a> </li>
+            <li class="submenu">
+                <a href="#"><i class="icon icon-th-list"></i> <span>Registrar</span></a>
+                <ul>
+                    <li>@Html.ActionLink("Registrar Canal", "Index", "Canal")</li>
+                    <li>@Html.ActionLink("Registrar SubCanal", "Index", "SubCanal")</li>
+                    <li>@Html.ActionLink("Registrar Vendedor", "Index", "Vendedor")</li>
+                    <li>@Html.ActionLink("Registrar Tarifas", "Index", "Tarifa")</li>
+                </ul>
+            </li>
+            <li><a href="@Url.Action("End","Home")"><i class="icon icon-th-list"></i> <span>Cerrar Session</span></a></li>
+            
+        </ul>
+    </div>
+    <!--close-left-menu-stats-sidebar-->
+
+    <div id="content">
+        @RenderBody()
+    </div>
+    <div class="modal fade" id="MessagePopup">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Mensaje</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <p id="modalmsg-texto"></p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

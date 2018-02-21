@@ -1,0 +1,99 @@
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+H:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+F:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Entidad.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Repositorio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\bin\Debug\SGCFVIEF.Utilitario.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v4\SGCFVIEF.Dominio\obj\Debug\SGCFVIEF.Dominio.pdb

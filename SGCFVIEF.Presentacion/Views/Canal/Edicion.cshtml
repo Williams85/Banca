@@ -1,0 +1,234 @@
+﻿@model SGCFVIEF.Entidad.CanalEntidad
+@{
+    ViewBag.Title = "Registrar de Canal";
+}
+
+<div id="content-header">
+    <h1>Registrar Canal</h1>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span6 clear centrar6">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon">
+                        <i class="icon-align-justify"></i>
+                    </span>
+                    <h5>Información de Canal</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <form class="form-horizontal formulario" method="post" action="#" name="basic_validate" id="basic_validate" novalidate="novalidate">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Cod_Canal">Código:</label>
+                                @Html.TextBoxFor(model => model.Cod_Canal, new { @class = "form-control", @readonly = "true" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="NomCanal">Canal:</label>
+                                @Html.TextBoxFor(model => model.Canal, new { @class = "form-control", @autocomplete = "off", @maxlength = "150" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="RucCanal">R.U.C.:</label>
+                                @Html.TextBoxFor(model => model.RUC, new { @class = "form-control", @autocomplete = "off", @maxlength = "11" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="RazonSocial">Razon Social:</label>
+                                @Html.TextBoxFor(model => model.Razon_Social, new { @class = "form-control", @autocomplete = "off", @maxlength = "150" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Direccion">Dirección:</label>
+                                @Html.TextBoxFor(model => model.Direccion, new { @class = "form-control", @autocomplete = "off", @maxlength = "250" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="IdDistrito">Región:</label>
+                                @Html.DropDownListFor(model => model.Region.Cod_Region, new SelectList(ViewBag.ListaRegiones, "Cod_Region", "Descripcion"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="IdDistrito">Provincia:</label>
+                                @Html.DropDownListFor(model => model.Provincia.Cod_Provincia, new SelectList(ViewBag.ListaProvincias, "Cod_Provincia", "Descripcion"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="IdDistrito">Distrito:</label>
+                                @Html.DropDownListFor(model => model.Distrito.Cod_Distrito, new SelectList(ViewBag.ListaDistritos, "Cod_Distrito", "Descripcion"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Teléfono1">Teléfono 1:</label>
+                                @Html.TextBoxFor(model => model.Telefono1, new { @class = "form-control", @autocomplete = "off", @maxlength = "15" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Teléfono2">Teléfono 2:</label>
+                                @Html.TextBoxFor(model => model.Telefono2, new { @class = "form-control", @autocomplete = "off", @maxlength = "15" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Celular">Celular:</label>
+                                @Html.TextBoxFor(model => model.Celular, new { @class = "form-control", @autocomplete = "off", @maxlength = "15" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="RepresentanteLegal">Representante Legal:</label>
+                                @Html.TextBoxFor(model => model.Representante_Legal, new { @class = "form-control", @autocomplete = "off", @maxlength = "150" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="RepresentanteLegal">Email:</label>
+                                @Html.TextBoxFor(model => model.Email, new { @class = "form-control", @autocomplete = "off", @maxlength = "150", type = "email" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="FechaInicio">Fecha Inicio:</label>
+                                @Html.TextBoxFor(model => model.Fecha_Inicio, new { @class = "form-control", @autocomplete = "off", @maxlength = "10" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="FechaCese">Fecha Cese:</label>
+                                @Html.TextBoxFor(model => model.Fecha_Cese, new { @class = "form-control", @autocomplete = "off", @maxlength = "10" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Estado">Estado:</label>
+                                @Html.DropDownListFor(model => model.Estado, new List<SelectListItem> { new SelectListItem { Text = "Activo", Value = "A" }, new SelectListItem { Text = "Inactivo", Value = "I" } }, null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="FechaUltimoCambio">Fecha Último Cambio:</label>
+                                @Html.TextBoxFor(model => model.Fecha_Ult_Camb, new { @class = "form-control", @autocomplete = "off", @maxlength = "10", @readonly = "true" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="alert alert-danger text-left" id="Message-Error">
+                                <strong></strong>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <button type="button" class="btn btn-danger" id="btn-modificar">Grabar</button>
+                                @Html.ActionLink("Cancelar", "Index", "Canal", new { @class = "btn btn-warning" })
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="MensajeGrabar">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensaje</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Esta seguro que desea modificar el canal. ¿Desea continuar?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btn-actualizar">Si</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="ResultadoGrabacion">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensaje</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Se actualizaron los datos.</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal fade" id="ResultadoGrabacionErr">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensaje</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="Mensaje"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/script-layaout")
+@Scripts.Render("~/bundles/mantenimiento-canales")
+
+<script>
+    $(function () {
+        $("#Fecha_Inicio").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '1940:2029'
+        });
+        $("#Fecha_Cese").datepicker({
+            changeMonth: true,
+            changeYear: true,
+            yearRange: '1940:2029'
+        });
+    });
+</script>

@@ -1,0 +1,38 @@
+﻿@model List<SGCFVIEF.Entidad.PagoComisionEntidad>
+@{
+    ViewBag.Title = "_ResultadosBusqueda";
+}
+
+@if (Model != null && Model.Count > 0)
+{
+    <table id="TablaResultados" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Fecha Reporte</th>
+                <th>Código de Comisión</th>
+                <th>Producto</th>
+                <th>Canal</th>
+                <th>Importe</th>
+                <th>Código Reporte</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="gradeA">
+                    <td>@item.Fecha_Reporte_Comision</td>
+                    <td>@item.Cod_Comision</td>
+                    <td>@item.Producto.Producto</td>
+                    <td>@item.Canal.Canal</td>
+                    <td>@item.MontoComision</td>
+                    <td>@item.Cod_Reporte_Comision</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+
+
+
+

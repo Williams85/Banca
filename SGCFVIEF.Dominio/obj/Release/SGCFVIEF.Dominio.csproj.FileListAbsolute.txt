@@ -1,0 +1,66 @@
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.pdb
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.dll
+F:\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.pdb
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.dll
+D:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.pdb
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Aplicacion\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.pdb
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.dll
+I:\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Dominio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Entidad.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Repositorio.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\bin\Release\SGCFVIEF.Utilitario.pdb
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.csprojResolveAssemblyReference.cache
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.dll
+E:\Datos\Proyectos\Personal\Banca\Fuentes\SGCFVIEF v3\SGCFVIEF.Dominio\obj\Release\SGCFVIEF.Dominio.pdb

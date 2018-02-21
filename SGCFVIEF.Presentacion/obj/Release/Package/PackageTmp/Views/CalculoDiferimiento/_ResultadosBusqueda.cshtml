@@ -1,0 +1,69 @@
+﻿@model List<SGCFVIEF.Entidad.PagoComisionEntidad>
+@{
+    ViewBag.Title = "_ResultadosBusqueda";
+}
+@if (Model != null && Model.Count > 0)
+{
+    <table id="TablaResultados" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Cód. Comision</th>
+                <th>Fecha Aprobación</th>
+                <th>Cód. Cliente</th>
+                <th>Operación</th>
+                <th>Producto</th>
+                <th>SubProducto</th>
+                <th>Plazo</th>
+                <th>Canal</th>
+                <th>SubCanal</th>
+                <th>Vendedor</th>
+                <th>Estado Sol.</th>
+                <th>Moneda</th>
+                <th>Importe (S/.)</th>
+                <th>Fecha Comisión</th>
+                <th>Comisión (S/.)</th>
+                <th>Tarifa Comisión</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="gradeA">
+                    <td align="left">@item.Cod_Comision</td>
+                    <td align="left">@item.Fecha_Aprob_Rech</td>
+                    <td align="left">@item.BT_Cliente</td>
+                    <td align="left">@item.N_Operación</td>
+                    <td align="left">@item.Producto.Producto</td>
+                    <td align="left">@item.SubProducto.SubProducto</td>
+                    <td align="right">@item.Plazo</td>
+                    <td align="left">@item.Canal.Canal</td>
+                    <td align="left">@item.Subcanal.SubCanal</td>
+                    <td align="left">@item.NombreCompletoVendedor</td>
+                    <td align="left">@item.Solicitud.Estado</td>
+                    <td align="left">@item.Moneda</td>
+                    <td align="right">@item.Línea_Desembolsos.ToString("###,##0.#0")</td>
+                    <td align="left">@item.FechaComision</td>
+                    <td align="right">@item.MontoComision.ToString("###,##0.#0")</td>
+                    <td align="right">
+                        @if (item.TipoTarifa == 1)
+                        {
+                            @(item.Tarifario.ToString("#0.#0") + "%")
+                        }
+                        else
+                        {
+                            @("S/. " + item.Tarifario.ToString("#0.#0"))
+                        }
+                    </td>
+                    @*<td align="left">@item.CuentaContable1</td>
+                        <td align="left">@item.FechaDiferido</td>
+                        <td align="right">@item.MontoDiferido.ToString("#0.#0")</td>
+                        <td align="right">@item.SaldoPendiente.ToString("#0.#0")</td>
+                        <td align="right">@item.SaldoPagado.ToString("#0.#0")</td>
+                        <td align="left">@item.CuentaContable2</td>*@
+
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}

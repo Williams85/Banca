@@ -1,0 +1,154 @@
+﻿body{
+    background: #fff;
+}
+
+#header a{
+    background: url('../img/logo.png');
+    display:block;
+    float: right;
+    height: 65px;
+    margin-right: 10px;
+    width: 472px;
+}
+#header h1{
+    color: #fff;
+    font-size: 18px;
+    float: left;
+    margin-left: 20px;
+}
+
+#Resultados{
+    padding:10px;
+}
+
+.clear{
+    clear:both;
+    float: none !important;
+}
+
+.centrar6{
+    position: relative;
+    left: 25%;
+}
+
+.centrar8{
+    position: relative;
+    left: 16.66%;
+}
+
+.formulario{
+    font-size: 12px;
+    padding: 10px;
+    width: 100%;
+}
+
+.formulario input, .formulario select{
+    font-size: 12px;
+    height: auto;
+}
+
+.formulario .row{
+    margin:0 !important;
+}
+.form-horizontal .form-group{
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+
+.form-control{
+    font-size: 12px;
+}
+
+.gradeA{
+    font-size:12px;
+}
+.col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-8, .col-md-10, .col-md-12{
+    padding: 0 2px;
+}
+/*body{
+	font-family: Arial;
+}
+
+header{
+	overflow: hidden;
+	padding: 10px;
+}
+
+#principal{
+	padding: 10px 0px;
+}
+
+#principal h1{
+	color: #10337E;
+	font-size: 30px;
+	margin-left: 30px;
+}
+
+.botones button, .botones a{
+		margin-top: 25px;
+}
+
+.centrar{
+    margin: 0 auto;
+}
+
+.derecha{
+	float: right;
+}
+
+.formulario{
+	background: #FFE25E;
+	margin: 0 auto 20px auto;
+	padding: 10px;
+	width: 80%;
+}
+
+.formulario-3{
+	background: #FFE25E;
+	margin: 0 auto 20px auto;
+	overflow: hidden;
+	padding: 10px;
+	width: 40%;
+}
+
+.formulario legend{
+	font-size: 18px;
+}
+
+.portada{
+    margin: 0px auto;
+    padding:20px;
+    width:600px;
+}
+
+.table thead tr{
+	background: #083190;
+	color: #FFD400;
+}
+
+.table tbody tr:hover{
+	background: #FFEFA6;
+	color: #0D4EE3;
+}
+*/
+[class^="icon-"], [class*=" icon-"] {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    margin-top: 1px;
+    line-height: 14px;
+    vertical-align: text-top;
+    background-image: url(../img/glyphicons-halflings.png);
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+}
+
+.icon-align-justify {
+    background-position: -336px -48px;
+}
+
+.portada{
+    margin: 0px auto;
+    padding:20px;
+    width:600px;
+}

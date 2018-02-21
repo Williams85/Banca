@@ -1,0 +1,240 @@
+﻿@model SGCFVIEF.Entidad.VendedorEntidad
+@{
+    ViewBag.Title = "Nuevo";
+}
+
+<div id="content-header">
+    <h1>Registrar Vendedor</h1>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span6 clear centrar6">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon">
+                        <i class="icon-align-justify"></i>
+                    </span>
+                    <h5>Información de Vendedor</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <form class="form-horizontal formulario" method="post" action="#" name="basic_validate" id="basic_validate" novalidate="novalidate">
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Cod_Vendedor">Código:</label>
+                                @Html.TextBox("Cod_Vendedor", null, new { @class = "form-control", @readonly = "true" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Nombre">Nombres:</label>
+                                @Html.TextBox("Nombre", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "150" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Apellido">Apellido Paterno:</label>
+                                @Html.TextBox("Apellido", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "150" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="NomCanal">Apellido Materno:</label>
+                                @Html.TextBox("Apellido2", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "150" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Canal_Cod_Canal">Canal:</label>
+                                @Html.DropDownList("Canal_Cod_Canal", new SelectList(ViewBag.ListaCanales, "Cod_Canal", "Canal"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="SubCanal_Cod_SubCanal">SubCanal:</label>
+                                @Html.DropDownList("SubCanal_Cod_SubCanal", new SelectList(ViewBag.ListaSubCanales, "Cod_SubCanal", "SubCanal"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Region_Cod_Region">Región:</label>
+                                @Html.DropDownList("Region_Cod_Region", new SelectList(ViewBag.ListaRegiones, "Cod_Region", "Descripcion"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Provincia_Cod_Provincia">Provincia:</label>
+                                @Html.DropDownList("Provincia_Cod_Provincia", new SelectList(ViewBag.ListaProvincias, "Cod_Provincia", "Descripcion"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Distrito_Cod_Distrito">Distrito:</label>
+                                @Html.DropDownList("Distrito_Cod_Distrito", new SelectList(ViewBag.ListaDistritos, "Cod_Distrito", "Descripcion"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="Distrito_Cod_Distrito">Tipo Documento:</label>
+                                @Html.DropDownList("Tipo_Doc_Tipo_Doc", new SelectList(ViewBag.ListaTipoDocumentos, "Tipo_Doc", "Nomb_Doc"), null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="Num_Doc">N° Documento:</label>
+                                @Html.TextBox("Num_Doc", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "150" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <label for="Direccion">Dirección:</label>
+                                @Html.TextBox("Direccion", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "250" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Teléfono1">Teléfono 1:</label>
+                                @Html.TextBox("Telefono1", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "15" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Teléfono2">Teléfono 2:</label>
+                                @Html.TextBox("Telefono2", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "15" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Celular">Celular:</label>
+                                @Html.TextBox("Celular", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "15" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="FechaInicio">Fecha Inicio:</label>
+                                @Html.TextBox("Fecha_Inicio", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "10" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="FechaCese">Fecha Cese:</label>
+                                @Html.TextBox("Fecha_Cese", null, new { @class = "form-control", @autocomplete = "off", @maxlength = "10" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-4">
+                            <div class="form-group">
+                                <label for="Estado">Estado:</label>
+                                @Html.DropDownList("Estado", new List<SelectListItem> { new SelectListItem { Text = "Activo", Value = "A" }, new SelectListItem { Text = "Inactivo", Value = "I" } }, null, new { @class = "form-control chosen-select" })
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="alert alert-danger text-left" id="Message-Error">
+                                <strong></strong>
+                            </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="form-group">
+                                <button type="button" class="btn btn-danger" id="btn-registrar">Grabar</button>
+                                @Html.ActionLink("Cancelar", "Index", null, new { @class = "btn btn-warning" })
+                            </div>
+                        </div>
+
+                        <div class="clear"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="MensajeGrabar">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensaje</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>Se creará un vendedor.¿Desea Continuar?</p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" id="btn-grabar">Si</button>
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">No</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ResultadoGrabacion">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensaje</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>El código del vendedor es: <span id="Id"></span> </p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="ResultadoGrabacionErr">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Mensaje</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p id="Mensaje"></p>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-primary" data-dismiss="modal">Cerrar</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@Scripts.Render("~/bundles/mantenimiento-vendedores")
+@Scripts.Render("~/bundles/script-layaout")
+<script>
+    $(function () {
+
+        $("#Fecha_Inicio").datepicker();
+        $("#Fecha_Cese").datepicker();
+
+    });
+</script>
+
+
+

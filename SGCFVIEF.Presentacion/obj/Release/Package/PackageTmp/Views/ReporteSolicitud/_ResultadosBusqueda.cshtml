@@ -1,0 +1,60 @@
+﻿@model List<SGCFVIEF.Entidad.SolicitudEntidad>
+@{
+    ViewBag.Title = "_ResultadosBusqueda";
+}
+@if (Model != null && Model.Count > 0)
+{
+    <table id="TablaResultados" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Fecha Reporte</th>
+                <th>Canal</th>
+                <th>Producto</th>
+                <th>SubProducto</th>
+                <th>N°</th>
+                <th>BT-Cliente</th>
+                <th>N°</th>
+                <th>Nombre Cliente</th>
+                <th>Línea/Préstamo (S/.)</th>
+                <th>Estado</th>
+                <th>Plazo</th>
+                <th>Tarifa</th>
+                <th>Vendedor</th>
+                <th>Fecha Consulta</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="gradeA">
+                    <td>@item.Fecha_Reporte_Solicitud</td>
+                    <td>@item.Canal.Canal</td>
+                    <td>@item.Producto.Producto</td>
+                    <td>@item.SubProducto.SubProducto</td>
+                    <td>@item.N_Solicitud</td>
+                    <td>@item.BT_Cliente</td>
+                    <td>@item.N_Operación</td>
+                    <td>@item.NombreCompletoCliente</td>
+                    <td>@item.Línea_Desembolsos.ToString("###,##0.#0")</td>
+                    <td>@item.Estado</td>
+                    <td>@item.Plazo</td>
+                    <td>
+                        @if (item.Tipo == 1)
+                        {
+                            @((item.Tarifario * 100).ToString("#0.#0") + "%")
+                        }
+                        else
+                        {
+                            @("S/. " + item.Tarifario.ToString("#0.#0"))
+                        }
+                    </td>
+                    <td>@item.NombreCompletoVendedor</td>
+                    <td>@(DateTime.Now.ToString("dd/MM/yyyy"))</td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+
+

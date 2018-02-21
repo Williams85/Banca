@@ -1,0 +1,67 @@
+﻿@model List<SGCFVIEF.Entidad.PagoComisionEntidad>
+@{
+    ViewBag.Title = "_ResultadosBusquedaPagoComisiones";
+}
+
+@if (Model != null && Model.Count > 0)
+{
+    <table id="TablaResultados" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Cód. Cálculo</th>
+                <th>Cuenta Contable</th>
+                <th>Fecha Aprobación</th>
+                <th>Cód. Cliente</th>
+                <th>Operación</th>
+                <th>Producto</th>
+                <th>SubProducto</th>
+                <th>Moneda</th>
+                <th>Línea/Préstamo (S/.)</th>
+                <th>Plazo</th>
+                <th>Saldo Actual.</th>
+                <th>Canal</th>
+                <th>Vendedor</th>
+                <th>Estado</th>
+                <th>Fecha Comisión</th>
+                <th>Comisión</th>
+                <th>Tarifa Comisión</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="gradeA">
+                    <td>@item.Cod_Comision</td>
+                    <td>@item.CuentaContable1</td>
+                    <td>@item.Fecha_Aprob_Rech</td>
+                    <td>@item.BT_Cliente</td>
+                    <td>@item.N_Operación</td>
+                    <td>@item.Producto.Producto</td>
+                    <td>@item.SubProducto.SubProducto</td>
+                    <td>@item.Moneda</td>
+                    <td>@item.Línea_Desembolsos.ToString("###,##0.#0")</td>
+                    <td>@item.Plazo</td>
+                    <td>@item.Saldo_Act.ToString("###,##0.#0")</td>
+                    <td>@item.Canal.Canal</td>
+                    <td>@item.NombreCompletoVendedor</td>
+                    <td>@item.Estado</td>
+                    <td>@item.FechaComision</td>
+                    <td>@item.MontoComision.ToString("###,##0.#0")</td>
+                    <td>
+                        @if (item.TipoTarifa == 1)
+                        {
+                            @((item.Tarifario * 100).ToString("#0.#0") + "%")
+                        }
+                        else
+                        {
+                            @("S/. " + item.Tarifario.ToString("#0.#0"))
+                        }
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+
+

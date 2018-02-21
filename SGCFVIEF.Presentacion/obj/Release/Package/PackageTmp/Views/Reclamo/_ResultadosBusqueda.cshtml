@@ -1,0 +1,52 @@
+﻿@model List<SGCFVIEF.Entidad.ReclamoEntidad>
+@{
+    ViewBag.Title = "_ResultadosBusqueda";
+}
+@if (Model != null && Model.Count > 0)
+{
+    <table id="TablaResultados" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Canal</th>
+                <th>Cod. Vendedor</th>
+                <th>Nombre Vendedor</th>
+                <th>Cod. Cliente</th>
+                <th>Producto</th>
+                <th>Fecha Aprobacion</th>
+                <th>Tipo Reclamo</th>
+                <th>Motivo Reclamo</th>
+                <th>Estado</th>
+                <th>Fecha Inicio</th>
+                <th>Fecha Fin</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr class="gradeA">
+                    <td align="left">@item.Solicitud.Canal.Canal</td>
+                    <td align="left">@item.Solicitud.Vendedor.Cod_Vendedor</td>
+                    <td align="left">@item.Solicitud.NombreCompletoVendedor</td>
+                    <td align="left">@item.Solicitud.BT_Cliente</td>
+                    <td align="left">@item.Solicitud.Producto.Producto</td>
+                    <td align="left">@item.Solicitud.Fecha_Aprob_Rech</td>
+                    <td align="left">@item.Nom_TipoReclamo</td>
+                    <td align="left">@item.MotivoRechazoSolicitud.Nom_MotivoRechazoSolicitud</td>
+                    <td align="center">@item.Estado</td>
+                    <td align="left">@item.FechaInicio</td>
+                    <td align="left">@item.FechaFin</td>
+                    <td>
+                        @using (Html.BeginForm("Edicion", "Reclamo", FormMethod.Post, new { @role = "form" }))
+                        {
+                            <input type="hidden" id="Codigo" name="Codigo" value="@item.Cod_Reclamo" />
+                            <button type="submit" class="btn btn-primary btn-sm"><span class="separarboton glyphicon glyphicon-pencil"></span>Editar</button>
+                        }
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+}
+

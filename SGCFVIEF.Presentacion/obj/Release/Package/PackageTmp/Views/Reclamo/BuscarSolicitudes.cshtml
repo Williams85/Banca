@@ -1,0 +1,144 @@
+﻿@model List<SGCFVIEF.Entidad.SolicitudEntidad>
+@{
+    ViewBag.Title = "BuscarSolicitudes";
+}
+
+<div id="content-header">
+    <h1>Registro Reclamo</h1>
+</div>
+
+<div class="container-fluid">
+    <div class="row-fluid">
+        <div class="span8 clear centrar8">
+            <div class="widget-box">
+                <div class="widget-title">
+                    <span class="icon">
+                        <i class="icon-align-justify"></i>
+                    </span>
+                    <h5>Filtro de Selección</h5>
+                </div>
+                <div class="widget-content nopadding">
+                    <form class="form-horizontal formulario" method="post" action="#" name="basic_validate" id="basic_validate" novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="FechaInicio">Desde:</label>
+                                    <input type="text" class="form-control" id="FechaInicio" readonly
+                                           placeholder="Fecha Desde">
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="FechaFin">Hasta:</label>
+                                    <input type="text" class="form-control" id="FechaFin" readonly
+                                           placeholder="Fecha Hasta">
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label for="N_Solicitud">Solicitud:</label>
+                                    <input type="text" id="N_Solicitud" class="form-control" placeholder="N° Solicitud" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label for="Canal">Canal:</label>
+                                    @Html.DropDownList("Canal", new SelectList(ViewBag.ListaCanales, "Cod_Canal", "Canal"), "Todos", new { @class = "form-control chosen-select" })
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label for="SubCanal">Sub-Canal:</label>
+                                    @Html.DropDownList("SubCanal", new SelectList(ViewBag.ListaSubCanales, "Cod_SubCanal", "SubCanal"), "Todos", new { @class = "form-control chosen-select" })
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="NombreVendedor">Nombres Vendedor:</label>
+                                    <input type="text" id="NombreVendedor" class="form-control" placeholder="Nombre Vendedor" />
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+                                <div class="form-group">
+                                    <label for="ApellidosVendedor">Apellidos Vendedor:</label>
+                                    <input type="text" id="ApellidosVendedor" class="form-control" placeholder="Apellidos Vendedor" />
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label for="TipoDocumento">Tipo de Documento:</label>
+                                    @Html.DropDownList("TipoDocumento", new SelectList(ViewBag.ListaTipoDocumento, "Tipo_Doc", "Nomb_Doc"), "Todos", new { @class = "form-control chosen-select" })
+                                </div>
+                            </div>
+
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label for="NumDocumento">N° Documento:</label>
+                                    <input type="text" id="NumDocumento" class="form-control" placeholder="N° Documento" />
+                                </div>
+                            </div>
+                            <div class="col-md-2">
+                                <div class="form-group">
+                                    <label for="CodigoVendedor">Código Vendedor:</label>
+                                    <input type="text" id="CodigoVendedor" class="form-control" placeholder="Codigo Vendedor" />
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="row">
+                            <div class="col-md-3">
+
+                            </div>
+                            <div class="col-md-6">
+                                <div class="alert alert-danger text-left" id="Message-Error">
+                                    <strong></strong>
+                                </div>
+                            </div>
+                            <div class="col-md-3">
+
+                            </div>
+
+                        </div>
+
+                        <div class="row">
+                            <div class="col-md-12 text-center">
+                                <div class="form-group">
+                                    <button type="button" class="btn btn-info" id="IdBuscarSolicitudes">Buscar</button>
+                                    <button type="button" class="btn btn-success" id="IdExportar">Exportar</button>
+                                    <button type="button" class="btn btn-warning" id="btn-cancelar">Cancelar</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="clear"></div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="Resultados" style="width:100%;overflow:scroll;">
+
+</div>
+
+@Scripts.Render("~/bundles/script-layaout")
+@Scripts.Render("~/bundles/mantenimiento-reclamo")
+
+
+<script>
+    $(function () {
+        $("#FechaInicioSolicitud").datepicker();
+        $("#FechaFinSolicitud").datepicker();
+    });
+</script>
+

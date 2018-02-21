@@ -1,0 +1,80 @@
+﻿@model List<SGCFVIEF.Entidad.SolicitudEntidad>
+@{
+    ViewBag.Title = "_ResultadosBusqueda";
+}
+@if (Model != null && Model.Count > 0)
+{
+    <table id ="TablaResultados" class="table table-hover">
+        <thead>
+            <tr>
+                <th>Fecha Aprobación</th>
+                <th>Cód. Cliente</th>
+                <th>Operación</th>
+                <th>Producto</th>
+                <th>SubProducto</th>
+                <th>Moneda</th>
+                <th>Línea/Préstamo (S/.)</th>
+                <th>Plazo</th>
+                <th>Saldo Mes Ant.</th>
+                <th>Saldo Actual.</th>
+                <th>Canal</th>
+                <th>Vendedor</th>
+                <th>Estado</th>
+                <th>Fecha Comisión</th>
+                <th>Comisión</th>
+                <th>Tarifa Comisión</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                if (item.Reclamo == "")
+                {
+                    <tr class="gradeA">
+                        <td>@item.Fecha_Aprob_Rech</td>
+                        <td>@item.BT_Cliente</td>
+                        <td>@item.N_Operación</td>
+                        <td>@item.Producto.Producto</td>
+                        <td>@item.SubProducto.SubProducto</td>
+                        <td>@item.Moneda</td>
+                        <td>@item.Línea_Desembolsos.ToString("###,##0.#0")</td>
+                        <td>@item.Plazo</td>
+                        <td>@item.Saldo_Ant.ToString("###,##0.#0")</td>
+                        <td>@item.Saldo_Act.ToString("###,##0.#0")</td>
+                        <td>@item.Canal.Canal</td>
+                        <td>@item.NombreCompletoVendedor</td>
+                        <td>@item.Estado</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                }
+                else
+                {
+                    <tr class="gradeA" style="background-color:#FF8A8A;">
+                        <td>@item.Fecha_Aprob_Rech</td>
+                        <td>@item.BT_Cliente</td>
+                        <td>@item.N_Operación</td>
+                        <td>@item.Producto.Producto</td>
+                        <td>@item.SubProducto.SubProducto</td>
+                        <td>@item.Moneda</td>
+                        <td>@item.Línea_Desembolsos.ToString("###,##0.#0")</td>
+                        <td>@item.Plazo</td>
+                        <td>@item.Saldo_Ant.ToString("###,##0.#0")</td>
+                        <td>@item.Saldo_Act.ToString("###,##0.#0")</td>
+                        <td>@item.Canal.Canal</td>
+                        <td>@item.NombreCompletoVendedor</td>
+                        <td>@item.Estado</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                }
+
+            }
+
+        </tbody>
+    </table>
+}
+
+
